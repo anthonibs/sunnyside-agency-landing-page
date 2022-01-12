@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+:root {
+    /* PROMARY COLOR */
+    --softred: hsl(7, 99%, 70%);
+    --yellow-c: hsl(51, 100%, 49%);
+    --dark-desaturated:  hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    dark-moderate: hsl(168, 34%, 41%);
+
+    /* NEUTRAL */
+    --very-dark-desturated: hsl(212, 27%, 19%);
+    --very-dark-grayish: hsl(213, 9%, 39%);
+    --dark-grayish: hsl(232, 10%, 55%);
+    --grayish: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    /* FONT */
+    --font-fam-1: 'Barlow', sans-serif;
+    --font-fam-2: 'Fraunces', serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+header .navbar-wrapper-mobile {
+    display: none;
+}
+
+.navbar-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+
+.navbar-container img {
+    display: block;
+    width: auto;
+    height: 35px;
+    margin-left: 40px;
+} 
+
+.navbar-group {
+   display: flex;
+   margin-right: 40px;
+}
+
+.navbar-group li {
+    margin: 0 15px;
+}
+
+.navbar-group li a {
+    font-size: 14px;
+    font-family: var(--font-fam-1);
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* HERO SECTION */
+/* .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.hero-group h1 {
+    font-size: 48px;
+    font-family: var(--font-fam-2);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-group {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.hero-group > img {
+    display: block;
+    height: 90px;
+    margin: 40px auto;
+}
+
+/* INTRODUCTION SECTION */
+
+/* .section-introduction {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+}
+
+.introduction-container {
+    background-color: silver;
+} */
