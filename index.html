@@ -7,7 +7,8 @@
     <meta name="description" content="Os melhores preços em passagens, hotéis e pacotes você encontra no Sunnyside.">
     <meta name="keywords" content="pacotes de viagem, agencia de viagem, hotéis, resorts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="/css/styles.css">
@@ -27,12 +28,20 @@
         </nav>
 
         <div class="navbar-wrapper-mobile">
-            <ul class="navbar-group-mobile">
-                <li><a class="navbar-link-mobile" href="#">About</a></li>
-                <li><a class="navbar-link-mobile" href="#">Services</a></li>
-                <li><a class="navbar-link-mobile" href="#">Projects</a></li>
-                <li><a class="navbar-link-mobile" href="#">Contact</a></li>
-            </ul>
+            <button id="btn-menu" class="btn-menu icon" type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="navbar-container-mobile">
+                <ul class="navbar-group-mobile">
+                    <li><a class="navbar-link-mobile" href="#">About</a></li>
+                    <li><a class="navbar-link-mobile" href="#">Services</a></li>
+                    <li><a class="navbar-link-mobile" href="#">Projects</a></li>
+                    <li><a class="navbar-link-mobile btn-contact" href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -81,7 +90,7 @@
                 <div class="bg-cup"></div>
             </div>
 
-            <div class="intro-card ">
+            <div class="intro-card">
                 <div class="bg-cherry intro-d-center">
                     <div class="intro-d-thumb greenn">
                         <h3>Design gráfico</h3>
@@ -157,13 +166,13 @@
     <footer class="footer-sunnyside">
         <div class="footer-wrapper">
             <div class="footer-item">
-               <img src="images/logo-darkgreen.svg" alt="Logo Sunnyside">
+                <img src="images/logo-darkgreen.svg" alt="Logo Sunnyside">
 
-               <ul class="footer-list">
-                   <li><a href="#">Sobre</a></li>
-                   <li><a href="#">Serviços</a></li>
-                   <li><a href="#">Projetos</a></li>
-               </ul>
+                <ul class="footer-list">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
             </div>
 
             <div class="social-media">
@@ -175,7 +184,7 @@
         </div>
     </footer>
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
